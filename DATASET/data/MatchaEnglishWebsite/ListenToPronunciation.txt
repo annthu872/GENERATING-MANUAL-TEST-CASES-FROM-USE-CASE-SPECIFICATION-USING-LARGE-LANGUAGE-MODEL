@@ -1,0 +1,22 @@
+use case id: U09
+use case name: Listening pronunciation test quest
+objective: This use case allows learners to take a test question of listening to the pronunciation of the word to test the users’ memory levels.
+actor: learner
+
+basic flow:
+Step 1: The screen displays the test with a speaker button. 
+Step 2: Learner can guess the entire word and choose answer.
+Step 3: The system compares Vietnamese meanings and English vocabulary that the user chooses.
+Step 4: If the answer is correct, the pop up screen is green.
+
+Alternative flow 2: Learner chooses wrong answer
+At step 4 of basic flow: If the answer is wrong, the pop up screen is red.
+
+Preconditions:
+Learner must be logged into the application and are using the review test function.
+The review test's question is currently using the listening pronunciation test question.
+
+Postconditions:
+Vocabulary words are marked as studied.
+
+
