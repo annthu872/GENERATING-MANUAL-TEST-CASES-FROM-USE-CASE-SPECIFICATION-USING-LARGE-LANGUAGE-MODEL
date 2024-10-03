@@ -11,7 +11,7 @@
 4. How to run this project:
 
 - Open the SOURCE folder.
-- Put your OpenAI's key.
+- Put your OpenAI's key in .env file in SOURCE folder.
 - Run source code inside propose.ipynb.
 - If you want to change save directory or using a new dataset, change path in block 23.
 - Final output should be an excel files.
